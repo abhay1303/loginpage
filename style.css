@@ -1,27 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html,
 body {
     height: 100%;
     width:  100%;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-body {
+.container {
+    background-image: url('assets/images/vecteezy_colorful-abstract-wallpaper-modern-background-ai-generated_21171635.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     background-color: rgb(218, 173, 218);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+} 
+.icon_input
+{
+  display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin: 5px 0 10px 0px;
+    padding: 0px 5px;
 }
-
 form {
     border-radius:10px;
-    margin: auto;
+    /* margin: auto; */
     background-color: rgb(250, 245, 250);
-    padding: 30px 50px;
+    padding: 10px 25px;
+    height: 550px;
 }
-
 .form_input {
-    /* border-bottom: 1px solid rgb(85, 84, 84); */
+    width: 100%;
     outline: 0px;
-    margin: 10px 0;
-    border-width: 0px 0px 1px 0px;
+    margin: 10px 5px;
+    border-width: 0px 0px 0px 0px;
     background-color: rgb(250, 245, 250);
 }
 .fontweight{
@@ -35,19 +53,24 @@ form {
 }
 .loginbutton {
     border-radius: 100px;
-    margin: 30px 0px 20px 0px;
+    margin: 15px 0px 10px 0px;
+    width: 100%;
     border: none;
-    padding: 5px 100px;
-    background-color: rgb(100, 44, 100);
+    padding: 10px 60px;
+    background-image: linear-gradient(to right, #8f0934 27%, #27809e  70%);
+    transition: 0.7s;
+    color: white;  
 }
 .fontnsize{
     color:rgb(247, 245, 245); 
-    font-size:20px;
+    font-size:15px;
 }
 .forgot{
     border: none;
     background-color: rgb(250, 245, 250);
-    margin: 20px 0px 0px 0px;
+    /* margin: 0px 0px 0px 20px; */
+    width: 100%;
+    text-align: right;
 }
 .circle {
     border-radius: 200px;
@@ -72,9 +95,10 @@ form {
 .signupbutton{
     border: none;
     background-color: rgb(250, 245, 250);
+    width: 100%;
 }
 .psignup{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .form-inputs{

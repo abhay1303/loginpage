@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Page Title</title>
-</head>
+  </head>
 
-<body>
-    <form>
+  <body>
+    <div class="container">
+      <form>
         <div>
-            <h1 class="center fontweight">Login</h1>
-            <div class="form-inputs">
-                <label for="username">username</label>
-                <input class="form_input" type="text" id="username" name="username" placeholder="type your username">
-                <label for="password">password</label>
-                <input class="form_input" type="text" id="password" name="'password" placeholder="type your password">
+          <h1 class="center fontweight">Login</h1>
+          <div class="form-inputs">
+            <label for="username" class="fontweight">Username</label>
+            <div class="icon_input">
+              <i class="fa-solid fa-user"></i>
+              <input
+                class="form_input"
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Type your username"
+              />
             </div>
+          </div>
+          <div>
+            <label for="Password" class="fontweight">Password</label>
+            <div class="icon_input">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                class="form_input"
+                type="text"
+                id="Password"
+                name="Password"
+                placeholder="Type your Password"
+              />
+            </div>
+          </div>
         </div>
-        <div class="right">
-            <button class="forgot fontweight">Forgot password?</button>
-        </div>
-        <div class="center">
-            <button class="loginbutton fontnsize">LOGIN</button>
-        </div>
+        <button class="forgot fontweight">Forgot password?</button>
+        <button class="loginbutton grad">LOGIN</button>
         <p class="center">or sign up using</p>
         <div class="center">
-            <button class="circle facebook fontnsize">f</button>
-            <button class="circle twitter fontnsize">t</button>
-            <button class="circle google fontnsize">G</button>
+          <button class="circle facebook fontnsize">f</button>
+          <button class="circle twitter fontnsize">t</button>
+          <button class="circle google fontnsize">G</button>
         </div>
         <p class="psignup center">or sign up using</p>
-        <div class="center">
-            <button class="signupbutton" style="font-weight: bold;">SIGN UP</button>
-        </div>
-    </form>
-</body>
-
+        <button class="signupbutton" style="font-weight: bold">SIGN UP</button>
+      </form>
+    </div>
+  </body>
 </html>
